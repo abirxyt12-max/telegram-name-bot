@@ -105,7 +105,34 @@ names = [
     "Amanda Russell",
     "Taylor Griffin",
     "Kimberly Lawson",
-    "Stephanie Warren"
+    "Stephanie Warren",
+    # Add 1000 more US-style female names
+
+first_names = [
+    "Madison", "Brianna", "Camila", "Kennedy", "Peyton",
+    "Skylar", "Savannah", "Aaliyah", "Allison", "Kayla",
+    "Mackenzie", "Kylie", "Peyton", "Aubree", "Sienna",
+    "Luna", "Violet", "Hazel", "Aurora", "Paisley",
+    "Willow", "Everleigh", "Athena", "Arianna", "Peyton",
+    "Ruby", "Alice", "Naomi", "Elena", "Mackenzie",
+    "Faith", "Jasmine", "Adeline", "Alyssa", "Molly",
+    "Clara", "Brielle", "Melody", "Natalie", "Kendall",
+    "Morgan", "Kelsey", "Jocelyn", "Lillian", "Valerie",
+    "Isla", "Rose", "Julia", "Samantha", "Delaney"
+]
+
+last_names = [
+    "Adams", "Allen", "Baker", "Barnes", "Bell",
+    "Bishop", "Black", "Bowman", "Bradley", "Brooks",
+    "Brown", "Burton", "Butler", "Campbell", "Carson",
+    "Carter", "Clark", "Clayton", "Collins", "Cook"
+]
+
+for first in first_names:
+    for last in last_names:
+        full_name = f"{first} {last}"
+        if full_name not in names:
+            names.append(full_name)
 ]
 
 user_index = {}
