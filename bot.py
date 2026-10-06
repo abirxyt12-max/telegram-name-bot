@@ -133,7 +133,7 @@ for first in first_names:
         full_name = f"{first} {last}"
         if full_name not in names:
             names.append(full_name)
-]
+
 
 user_index = {}
 
